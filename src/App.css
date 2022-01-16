@@ -1,0 +1,17 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
+}
+
+h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 3px 3px 6px #163a1f;
+    color:#163a1f;
+}
+
