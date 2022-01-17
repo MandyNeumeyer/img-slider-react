@@ -6,14 +6,12 @@ const Slider = ({ source }) => {
 
 
     const [current, setCurrent] = useState(0)
- 
+
 
 
     const switchImgLeft = () => {
         if (current === 0) {
             setCurrent(source.length - 1)
-        
-
         } else {
             setCurrent(current - 1)
         }
@@ -26,12 +24,14 @@ const Slider = ({ source }) => {
             setCurrent(0)
         } else {
             setCurrent(current + 1)
+
         }
     }
     console.log(current);
 
     const circleHandler = (num) => {
         setCurrent(num)
+
 
     }
 
@@ -41,7 +41,7 @@ const Slider = ({ source }) => {
                 <div className="navigation-left" onClick={switchImgLeft} >
                     &#x2039;
                 </div>
-                <img  src={source[current]} alt="street-art" />
+                <img src={source[current]} alt="street-art" />
                 <div className="navigation-right" onClick={switchImgRight}>
                     &#x203A;
                 </div>
