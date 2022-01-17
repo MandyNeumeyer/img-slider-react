@@ -1,4 +1,4 @@
 # img-slider
 
 
-![](![](lotto.gif))
+![](![](img-slider.gif))
