@@ -1,4 +1,5 @@
 # img-slider
 
 
-![](![](img-slider.gif))
+![](img-slider.gif)
+
