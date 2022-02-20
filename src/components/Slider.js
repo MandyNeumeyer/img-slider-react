@@ -1,14 +1,9 @@
-import React, { useState } from 'react'
 import './Slider.css'
 
 
-const Slider = ({ source }) => {
+const Slider = ({ source, current, setCurrent }) => {
 
-
-    const [current, setCurrent] = useState(0)
-
-
-
+    
     const switchImgLeft = () => {
         if (current === 0) {
             setCurrent(source.length - 1)
@@ -31,9 +26,8 @@ const Slider = ({ source }) => {
 
     const circleHandler = (num) => {
         setCurrent(num)
-
-
     }
+
 
     return (
         <div className="slider">
