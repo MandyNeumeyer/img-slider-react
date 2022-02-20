@@ -1,6 +1,6 @@
 
 .slider{
-    width:42rem;
+    width:44rem;
     height:28rem;
     background: -webkit-linear-gradient(to top, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -9,16 +9,17 @@
     flex-direction: column;
     align-items: center;
     border-radius: 2rem;
-    padding:2.5rem 1.5rem 1rem 1.5rem;
+    padding:2.5rem 0rem 1rem 0rem;
     box-shadow: 5px 5px 8px 4px rgba(20, 20, 20, 0.2);
 }
+
 .navigation-left, .navigation-right{
     display: flex;
     align-items: center;
     cursor:pointer;
     color:rgb(241, 144, 32);; 
     opacity: 0.2;
-    font-size: 12rem;
+    font-size: 14rem;
     color:#333333;
 }
 
@@ -30,13 +31,8 @@
 .slider-box{
     display: flex;
     justify-content: center;
-    height:90%;
-    width:90%;
-}
-
-img{
-    width:100%;
-    height:100%;
+    width:95%;
+    height:95%;
 }
 
 
@@ -56,6 +52,6 @@ button{
 }
 
 button.active{
-    background-color: rgb(221, 123, 10)
+    background-color: rgb(221, 123, 10);
 }
 
