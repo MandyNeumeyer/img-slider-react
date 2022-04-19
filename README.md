@@ -11,7 +11,7 @@
 
 ---
 
-![](slider.gif)
+![](img-slider.gif)
 
 ---
 ## :weight_lifting: Bonus - add a slideshow
